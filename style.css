@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(wave.png);
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	height: 100vh;
+	margin: -20px 0 50px;
+}
+
+h1 {
+	font-weight: bold;
+	position: absolute;
+    top:20px;
+    text-align:center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction:column;
+	
+	
+}
+.info{
+	
+	list-style-type:none;
+	position:absolute;
+	top:80px;
+
+	width: 50%;
+	
+}
+.info li a{
+	text-decoration:none;
+	color:black;
+	display:block;
+	float:left;
+	padding: 15px;
+}
+
+
+form{
+	
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 30px;
+	height: 100%;
+	position: relative;
+	
+	text-align: center;
+}
+
+.left{
+	width:40%;
+	height:300px;
+	position: relative;
+	top:120px;
+	left:70px;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+.left img{
+	height: 300px;
+}
+.right{
+	width:45%;
+	height:300px;
+	position: relative;
+	top:80px;
+	left:180px;
+
+	float: left;
+
+}
+
+
+.form-container {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	
+	
+
+}
+
+.log-in-container {
+	left: 0;
+	width: 90%;
+	z-index: 2;
+
+}
+
+
+span{
+   position: absolute;
+   
+    width:50%;
+	left:210px;
+	top:13px;
+
+}
+.details{
+	width: 90%;
+
+	height:370px;
+	position: absolute;
+	top:120px;
+}
+
+button{
+	position: absolute;
+    cursor: pointer;
+    height: 50px;
+    width: 400px;
+    left: 10px;
+	background: -webkit-linear-gradient(left, rgb(148, 115, 221) 0%, rgb(26, 201, 228) 100%);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+	border:none;
+	transition: transform 80ms ease-in;
+	max-width: 100%;
+	min-height: 480px;	
+   
+}
+
+
