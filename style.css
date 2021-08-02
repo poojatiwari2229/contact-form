@@ -135,8 +135,7 @@ button{
     line-height: 1;
 	border:none;
 	transition: transform 80ms ease-in;
-	max-width: 100%;
-	min-height: 480px;	
+		
    
 }
 
